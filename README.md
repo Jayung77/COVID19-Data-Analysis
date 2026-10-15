@@ -26,10 +26,10 @@ SQL을 활용하여 코로나19 데이터를 조회·가공한 후 Tableau를 �
 
 ## SQL 파일
 
-* [COVID Portfolio Project.sql](./Tableau%20Portfolio%20Project%20SQL%20Query.sql)
+* [COVID Portfolio Project.sql](./COVID%20Portfolio%20Project.sql)
  * *주요 포함 내용:* CTE(WITH 구문), 윈도우 함수(SUM() OVER), 임시 테이블(Temp Table) 및 View를 활용한 국가별 감염률 및 누적 백신 접종률 심층 탐색 쿼리 수록.
 
-* [Tableau Portfolio Project SQL Query.sql]
+* [Tableau Portfolio Project SQL Query.sql](./Tableau%20Portfolio%20Project%20SQL%20Query.sql)
  * *주요 포함 내용:*: 데이터 정합성(Data Integrity) 확보를 위한 대륙·국가별 필터링 조건 기입, 인구 대비 누적 확진율/사망률 연산 쿼리, 시계열 그룹화(GROUP BY) 제어 스크립트 수록 (Tableau 대시보드 연동을 위한 최종 데이터 추출).
 
 ## Tableau Public
