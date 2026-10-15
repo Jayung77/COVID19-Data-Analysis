@@ -24,13 +24,15 @@ SQL을 활용하여 코로나19 데이터를 조회·가공한 후 Tableau를 �
 ### 4. 월별 감염 추이 시각화 (Percent Deaths Per Continent)
 * 팬데믹 초기부터의 누적 확산 추이를 라인 차트로 정밀 추적하여 서구권 국가들과 아시아권(한국, 일본)의 인구 대비 감염률 곡선 및 피크(Peak) 트렌드를 시계열로 대조 분석했습니다.
 
+### 핵심 인사이트 (Key Insights)
+대륙별 감염 확산 속도 차이 확인: 시계열 데이터 시각화 결과, 미국 및 유럽 등 서구권 국가들의 인구 대비 감염 확산세가 아시아권(한국, 일본 등)에 비해 초기 피크(Peak)가 훨씬 가파르게 나타나는 것을 확인했습니다.
 ## SQL 파일
 
 * [COVID Portfolio Project.sql](./COVID%20Portfolio%20Project.sql)
  * *주요 포함 내용:* CTE(WITH 구문), 윈도우 함수(SUM() OVER), 임시 테이블(Temp Table) 및 View를 활용한 국가별 감염률 및 누적 백신 접종률 심층 탐색 쿼리 수록.
 
 * [Tableau Portfolio Project SQL Query.sql](./Tableau%20Portfolio%20Project%20SQL%20Query.sql)
- * *주요 포함 내용:*: 데이터 정합성(Data Integrity) 확보를 위한 대륙·국가별 필터링 조건 기입, 인구 대비 누적 확진율/사망률 연산 쿼리, 시계열 그룹화(GROUP BY) 제어 스크립트 수록 (Tableau 대시보드 연동을 위한 최종 데이터 추출).
+ * *주요 포함 내용:* 데이터 정합성(Data Integrity) 확보를 위한 대륙·국가별 필터링 조건 기입, 인구 대비 누적 확진율/사망률 연산 쿼리, 시계열 그룹화(GROUP BY) 제어 스크립트 수록 (Tableau 대시보드 연동을 위한 최종 데이터 추출).
 
 ## Tableau Public
 
